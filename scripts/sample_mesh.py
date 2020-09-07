@@ -155,7 +155,8 @@ def export_voxels(mesh, modelname, loc, scale, args):
         return
 
     res = args.voxels_res
-    voxels_occ = voxels.voxelize(mesh, res)
+    #voxels_occ = voxels.voxelize(mesh, res) #orginal
+    voxels_occ = voxels.voxelize_surface(mesh, res) #added by me
 
     voxels_out = binvox_rw.Voxels(voxels_occ, (res,) * 3,
                                   translate=loc, scale=scale,

@@ -1,3 +1,5 @@
+set -x
+
 source dataset_shapenet/config.sh
 # Make output directories
 mkdir -p $BUILD_PATH

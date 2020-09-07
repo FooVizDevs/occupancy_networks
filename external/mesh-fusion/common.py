@@ -49,7 +49,7 @@ def read_hdf5(file, key = 'tensor'):
     """
 
     assert os.path.exists(file), 'file %s not found' % file
-
+    print("File:", file)
     h5f = h5py.File(file, 'r')
 
     assert key in h5f.keys(), 'key %s not found in file %s' % (key, file)

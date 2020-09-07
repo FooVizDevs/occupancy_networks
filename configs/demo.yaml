@@ -1,4 +1,4 @@
-inherit_from: configs/img/onet_pretrained.yaml
+inherit_from: configs/unconditional/onet_airplanes_pretrained.yaml
 data:
   dataset: images
   path: demo
@@ -6,5 +6,5 @@ training:
   out_dir:  demo
 generation:
   generation_dir: generation
-  refinement_step: 30
-  simplify_nfaces: 5000
+  refinement_step: 100
+  simplify_nfaces: 2500
