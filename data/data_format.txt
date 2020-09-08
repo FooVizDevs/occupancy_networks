@@ -1,0 +1,11 @@
+- model.binvox
+- pointcloud.npz
+- points.npz
+- img_choy2016 (renderings)
+    + view1.jpg (137x137 pixels)
+    + view2.jpg
+    + view3.jpg
+
+    + upto 23 in shapent
+
+    + cameras.npz
