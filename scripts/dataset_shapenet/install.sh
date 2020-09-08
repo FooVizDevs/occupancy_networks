@@ -1,3 +1,5 @@
+set -x
+
 source dataset_shapenet/config.sh
 
 # Function for processing a single model
