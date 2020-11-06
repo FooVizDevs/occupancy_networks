@@ -273,8 +273,8 @@ def write(voxel_model, fp):
                 ctr = 0
         else:
             # if switch state, dump
-            fp.write(chr(state))
-            fp.write(chr(ctr))
+            fp.write(chr(state).encode())
+            fp.write(chr(ctr).encode())
             state = c
             ctr = 1
     # flush out remainders

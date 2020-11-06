@@ -165,9 +165,9 @@ for i in range(0, args.views):
     print("Rotation {}, {}".format((stepsize * i), radians(stepsize * i)))
 
     scene.render.filepath = fp + '_r_{0:03d}'.format(int(i * stepsize))
-    depth_file_output.file_slots[0].path = scene.render.filepath + "_depth.png"
-    normal_file_output.file_slots[0].path = scene.render.filepath + "_normal.png"
-    albedo_file_output.file_slots[0].path = scene.render.filepath + "_albedo.png"
+    #depth_file_output.file_slots[0].path = scene.render.filepath + "_depth.png"
+    #normal_file_output.file_slots[0].path = scene.render.filepath + "_normal.png"
+    #albedo_file_output.file_slots[0].path = scene.render.filepath + "_albedo.png"
 
     bpy.ops.render.render(write_still=True)  # render still
 

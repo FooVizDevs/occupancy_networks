@@ -1,4 +1,4 @@
-method: onet
+ method: onet
 data:
   path: data/ShapeNet
   img_folder: img_choy2016

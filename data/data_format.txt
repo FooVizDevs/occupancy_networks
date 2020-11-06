@@ -1,3 +1,6 @@
+folder structure
+-----------------
+
 - model.binvox
 - pointcloud.npz
 - points.npz
@@ -6,6 +9,10 @@
     + view2.jpg
     + view3.jpg
 
-    + upto 23 in shapent
+    + upto 23 in shapenet
 
     + cameras.npz
+
+train.lst - folder names to be trained
+test.lst - folder names to be tested
+val.lst - something
